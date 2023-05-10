@@ -1,5 +1,9 @@
 cd ..
 mkdir build
 cd build
-cmake .. -DBUILD_DEVELOPER=False
+mkdir win
+cd ..
+
+cmake -B build/win -DBUILD_DEVELOPER=False
 pause
+
