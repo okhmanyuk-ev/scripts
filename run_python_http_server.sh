@@ -6,4 +6,4 @@ elif [ -d "$PWD/build/emscripten/output" ]; then
     cd build/emscripten/output
 fi
 
-python3 -m http.server
+python -m http.server 80
